@@ -1,0 +1,98 @@
+.panel {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 180, 80, 0.12);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.panelHeader {
+  padding: 18px 20px 14px;
+  border-bottom: 1px solid rgba(255, 180, 80, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(245, 158, 11, 0.04);
+}
+
+.panelIcon {
+  font-size: 18px;
+}
+
+.panelTitle {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 17px;
+  font-weight: 700;
+  color: #fef3c7;
+}
+
+.panelSub {
+  font-size: 11px;
+  color: #92817a;
+  margin-left: auto;
+}
+
+.groups {
+  padding: 16px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.group {}
+
+.groupLabel {
+  font-size: 11px;
+  font-weight: 700;
+  color: #92817a;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.optionRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  padding: 6px 11px;
+  cursor: pointer;
+  font-family: "Outfit", sans-serif;
+  font-size: 12px;
+  color: #a89880;
+  transition: all 0.18s;
+  position: relative;
+}
+
+.option:hover {
+  background: rgba(245, 158, 11, 0.08);
+  border-color: rgba(245, 158, 11, 0.2);
+  color: #e2d4b8;
+}
+
+.option.active {
+  background: rgba(245, 158, 11, 0.15);
+  border-color: rgba(245, 158, 11, 0.5);
+  color: #f59e0b;
+}
+
+.optionEmoji {
+  font-size: 13px;
+}
+
+.optionLabel {
+  font-weight: 500;
+}
+
+.checkmark {
+  font-size: 10px;
+  font-weight: 700;
+  color: #f59e0b;
+}
