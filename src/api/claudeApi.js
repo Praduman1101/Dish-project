@@ -1,8 +1,7 @@
 import { buildSystemPrompt } from "../constants";
 
 const MODEL = "gemini-2.5-flash-lite";
-const API_KEY = "AIzaSyA0CF-rUOdUNgcFGcA5RHuNq--PWm5Hnx4";
-
+const API_KEY = import.meta.env.VITE_API_KEY;
 function getUrl() {
   return `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent?key=${API_KEY}`;
 }
